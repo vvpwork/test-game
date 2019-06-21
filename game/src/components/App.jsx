@@ -1,13 +1,14 @@
-import React from 'react'
+/* eslint-disable */
+import React from 'react';
 
 // component
-import SelectGameMode from './formSatting/SelectGameMode'
+import Form from './formSetting/formSetting'
 
 // style
-const App = () =>{
-    return <>
-           <SelectGameMode  arr= {[{name:'ease'}, {name:'hard'}, {name:'norm'}]}/>
-    </>
-}
+const App = () => {
+	return (
+		<Form />
+	);
+};
 
 export default App;
