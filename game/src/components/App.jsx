@@ -1,13 +1,30 @@
 /* eslint-disable */
 import React from 'react';
+import styled from 'styled-components';
 
 // component
-import Form from './formSetting/formSetting'
 
-// style
+import GameBoard from './gameBoard/GameBoard';
+import WinnerBoard from './winnerBoard/WinnerBoard';
+
+const GameWrapper = styled.div`
+	display: flex;
+	margin:0 auto;
+	margin-top:50px;
+	width: 80%;
+	justify-content: center;
+	padding: 50px 20px 100px 20px;
+	border: 4px solid #EEEEEE;
+`;
+
+
+
 const App = () => {
 	return (
-		<Form />
+		<GameWrapper>
+			<GameBoard />
+			<WinnerBoard />
+		</GameWrapper>
 	);
 };
 

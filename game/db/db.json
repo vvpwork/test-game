@@ -1,20 +1,48 @@
 {
-    "game-settings":[
-        {
-            "name": "easy",
-            "field": 25,
-            "delay": 1000
-        },
-        {
-            "name": "normal",
-            "field": 49,
-            "delay": 750
-        },
-        {
-            "name": "hard",
-            "field": 81,
-            "delay": 500
-        }
-    ],
-    "winners":[]
+  "game-settings": [
+    {
+      "name": "Easy",
+      "field": 25,
+      "delay": 1000
+    },
+    {
+      "name": "Normal",
+      "field": 50,
+      "delay": 850
+    },
+    {
+      "name": "Hard",
+      "field": 75,
+      "delay": 700
+    }
+  ],
+  "winners": [
+    {
+      "name": "Computer AI",
+      "day": "22.06",
+      "start": 1561230030572,
+      "finish": 1561230067105,
+      "result": "36sec",
+      "mode": "Normal",
+      "id": 1
+    },
+    {
+      "name": "red",
+      "day": "22.06",
+      "start": 1561230727883,
+      "finish": 1561230742194,
+      "result": "14sec",
+      "mode": "Easy",
+      "id": 2
+    },
+    {
+      "name": "Computer AI",
+      "day": "22.06",
+      "start": 1561230764497,
+      "finish": 1561230779781,
+      "result": "15sec",
+      "mode": "Easy",
+      "id": 3
+    }
+  ]
 }

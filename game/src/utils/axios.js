@@ -1,18 +1,26 @@
 import axios from 'axios';
 
 axios.defaults.baseURL = ' http://localhost:8080/';
-// axios.defaults.headers.post['Content-Type'] = 'application/json';
+axios.defaults.headers['Content-Type'] = 'application/json';
 
-const addUser = async (user) => {
+const addWinner = async (user) => {
 	try {
-		const response = await axios.post('/winner', user);
+		const response = await axios.post('/winners', user);
 		return response.data;
 	} catch (error) {
 		return error;
 	}
 };
 
+
+const getAllWinners =  () =>axios.get('/winners')
+
+		 
+		
+	
+
+
 const getGameMode = () => axios.get('game-settings');
 
 
-export default {getGameMode, addUser};
+export default {getGameMode, addWinner, getAllWinners};

@@ -5,7 +5,7 @@ import dushboardReduser from './gameDushboard/dushboardReducer'
 
 
 const rootReduser = combineReducers({
-    dushboard: dushboardReduser
+    root: dushboardReduser
 })
 
 export default rootReduser;
