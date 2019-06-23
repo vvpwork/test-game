@@ -5,7 +5,7 @@ import { connect } from 'react-redux';
 //components
 import Form from './formSetting/FormSettingContainer';
 import Board from './dushbord/Dushboard';
-import Messege from './Message';
+import Messege from './Messege';
 
 import select from '../../redux/gameDushboard/dushboardSelectors';
 

@@ -13,7 +13,7 @@ const GameWrapper = styled.div`
 	margin-top:50px;
 	width: 80%;
 	justify-content: center;
-	padding: 50px 20px 100px 20px;
+	padding: 50px 0px 100px 0px;
 	border: 4px solid #EEEEEE;
 `;
 

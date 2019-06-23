@@ -12,8 +12,8 @@ import Square from './Square.jsx';
 const Container = styled.div`
 	margin: 0 auto;
 	display: grid;
-	width: 225px;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	width: 250px;
+	grid-template-columns: repeat(5, 1fr);
 	
 `;
 

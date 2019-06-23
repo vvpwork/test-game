@@ -32,8 +32,8 @@ const getGameSettings = () => (dispatch) => {
 	return utils
 		.getGameMode()
 		.then(({ data }) => {
-			dispatch(successGameSettings(data? data: []));
-			return data ? data : [];
+			dispatch(successGameSettings(data));
+			return data;
 		})
 		.catch((error) => dispatch(Error(error)));
 };
@@ -95,7 +95,7 @@ const getAllWinners = () => (dispatch) => {
 	dispatch(requestGetAllWinners());
 	return utils
 		.getAllWinners()
-		.then(({ data }) => dispatch(successAllWinners(data?data:[])))
+		.then(({ data }) => dispatch(successAllWinners(data)))
 		.catch((error) => dispatch(Error(error)));
 };
 

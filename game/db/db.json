@@ -17,32 +17,33 @@
     }
   ],
   "winners": [
+   
     {
       "name": "Computer AI",
-      "day": "22.06",
-      "start": 1561230030572,
-      "finish": 1561230067105,
-      "result": "36sec",
-      "mode": "Normal",
-      "id": 1
+      "day": "23.06",
+      "start": 1561287495264,
+      "finish": 1561287542925,
+      "result": "47sec",
+      "mode": "Hard",
+      "id": 6
     },
     {
       "name": "red",
-      "day": "22.06",
-      "start": 1561230727883,
-      "finish": 1561230742194,
-      "result": "14sec",
-      "mode": "Easy",
-      "id": 2
-    },
-    {
-      "name": "Computer AI",
-      "day": "22.06",
-      "start": 1561230764497,
-      "finish": 1561230779781,
+      "day": "23.06",
+      "start": 1561287921038,
+      "finish": 1561287936177,
       "result": "15sec",
       "mode": "Easy",
-      "id": 3
+      "id": 7
+    },
+    {
+      "name": "work",
+      "day": "23.06",
+      "start": 1561288072310,
+      "finish": 1561288098650,
+      "result": "26sec",
+      "mode": "Easy",
+      "id": 8
     }
   ]
 }
