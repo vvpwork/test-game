@@ -7,17 +7,16 @@
     },
     {
       "name": "Normal",
-      "field": 50,
+      "field": 49,
       "delay": 850
     },
     {
       "name": "Hard",
-      "field": 75,
+      "field": 81,
       "delay": 700
     }
   ],
   "winners": [
-   
     {
       "name": "Computer AI",
       "day": "23.06",
@@ -44,6 +43,33 @@
       "result": "26sec",
       "mode": "Easy",
       "id": 8
+    },
+    {
+      "name": "ttjtjr",
+      "day": "24.06",
+      "start": 1561330655265,
+      "finish": 1561330682939,
+      "result": "27sec",
+      "mode": "Normal",
+      "id": 9
+    },
+    {
+      "name": "Computer AI",
+      "day": "24.06",
+      "start": 1561332925021,
+      "finish": 1561332956208,
+      "result": "31sec",
+      "mode": "Hard",
+      "id": 10
+    },
+    {
+      "name": "Computer AI",
+      "day": "24.06",
+      "start": 1561332962756,
+      "finish": 1561332978021,
+      "result": "15sec",
+      "mode": "Easy",
+      "id": 11
     }
   ]
 }

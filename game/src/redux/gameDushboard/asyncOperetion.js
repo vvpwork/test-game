@@ -65,7 +65,7 @@ const changeColorSquare = () => (dispatch, getState) => {
 		dispatch(requestWinnerAdd());
 		utils
 			.addWinner(winner)
-			.then((data) => dispatch(successWinnerAdd(data)))
+			.then((data) => dispatch(successWinnerAdd(data? data: [])))
 			.then(() => dispatch(clearResult()))
 			.catch((error) => dispatch(Error(error)));
 	}

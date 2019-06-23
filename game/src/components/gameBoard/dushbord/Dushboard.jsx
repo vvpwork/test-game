@@ -12,9 +12,8 @@ import Square from './Square.jsx';
 const Container = styled.div`
 	margin: 0 auto;
 	display: grid;
-	width: 250px;
-	grid-template-columns: repeat(5, 1fr);
-	
+	width: ${(props) => Math.sqrt(props.gameMode.field) * 50}px;
+	grid-template-columns: repeat(${(props) => Math.sqrt(props.gameMode.field)}, 1fr);
 `;
 
 class Dushboard extends Component {
@@ -31,7 +30,7 @@ class Dushboard extends Component {
 	render() {
 		const { dushboardArr } = this.props;
 		return (
-			<Container>
+			<Container {...this.props}>
 				{dushboardArr.map((square) => (
 					<Square
 						id={square.id}
@@ -47,7 +46,8 @@ class Dushboard extends Component {
 }
 
 const mapStateToProps = (state) => ({
-	dushboardArr: select.dushboardArr(state)
+	dushboardArr: select.dushboardArr(state),
+	gameMode: select.userGameMode(state)
 });
 
 const mapDispatchToProps = {
