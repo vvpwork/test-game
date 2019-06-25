@@ -64,9 +64,7 @@ const WrapperSelect = styled.div`
 const selectGameMode = ({ arr = [], value, selectChange }) => (
 	<WrapperSelect>
 	<SelectStyle placeholder="game mode" value={value} onChange={selectChange} name="gameMode">
-		<option value="" key={'start_select'} disabled selected>
-			Pick game mode
-		</option>
+		
 		{arr.map((set) => (
 			<StyleOptions key={set.name} value={set.name}>
 				{set.name}
